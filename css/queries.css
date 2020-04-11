@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1024px) {
+  .destination {
+    flex-basis: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .feature {
+    flex-basis: 50%;
+    margin-bottom: 40px;
+  }
+  .item {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 9px;
+  }
+  .nav-links {
+    padding: 0;
+  }
+  .feature {
+    flex-basis: 100%;
+  }
+  .destination {
+    flex-basis: 100%;
+  }
+  .item {
+    height: 200px;
+  }
+  .team-member {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  }
+  form {
+    padding: 20px;
+  }
+}
